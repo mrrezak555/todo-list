@@ -8,6 +8,7 @@
     width: 15px;
     height: 12px;
     transition: transform 0.1s linear;
+    background-repeat: no-repeat;
     cursor: pointer;
 }
 
