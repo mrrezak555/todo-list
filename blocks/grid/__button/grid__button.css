@@ -1,0 +1,16 @@
+.grid__button{
+    position: absolute;
+    top: 30px;
+    right: 29px;
+    border: none;
+    background: none;
+    background-image: url(../../../images/Vector.svg);
+    width: 15px;
+    height: 12px;
+    transition: transform 0.1s linear;
+    cursor: pointer;
+}
+
+.grid__button:hover{
+    transform: scale(1.3);
+}

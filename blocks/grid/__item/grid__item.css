@@ -1,0 +1,7 @@
+.grid__item{
+    background: #F5F8FD;
+    border-radius: 10px;
+    width: 277px;
+    height: 100px;
+    position: relative;
+}

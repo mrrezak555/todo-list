@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 225px;
+}
+
+@media screen and (max-width: 1115px) {
+    .main{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 661px) {
+    .main{
+        margin-top: 50px;
+    }
+}

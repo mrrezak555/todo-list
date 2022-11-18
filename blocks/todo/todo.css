@@ -1,0 +1,16 @@
+.todo{
+    max-width: 331px;
+    margin-right: 123px;
+}
+
+@media screen and (max-width: 1200px) {
+    .todo{
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 661px) {
+    .todo{
+        margin-left: 0;
+    }
+}

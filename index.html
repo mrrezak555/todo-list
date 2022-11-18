@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="body">
+    <main class="main">
+        <div class="todo">
+            <h1 class="todo__title">Todo List</h1>
+            <form class="todo__form" name="todo list" method="post" novalidate>
+                <section class="todo__section">
+                    <input type="text" class="todo__input" name="name" placeholder="Название" required minlength="2" maxlength="30" id="name">
+                    <span class="todo__input-error"></span>
+                </section>
+                <section class="todo__section">
+                    <input type="text" class="todo__input" name="description" placeholder="Описание" required minlength="2" maxlength="30" id="description">
+                    <span class="todo__input-error"></span>
+                </section>
+                <button type="submit" class="todo__submit">Сохранить</button>
+            </form>
+        </div>
+        <section class="grid">
+        </section>
+    </main>
+    <template id="card">
+        <div class="grid__item">
+            <h2 class="grid__title"></h2>
+            <p class="grid__subtitle"></p>
+            <button type="button" class="grid__button"></button>
+        </div>
+    </template>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>

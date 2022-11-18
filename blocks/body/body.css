@@ -1,0 +1,11 @@
+.body{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1152px;
+    margin: auto;
+}
+
+@media screen and (max-width: 661px) {
+    .body{
+        max-width: 331px;
+    }
+}

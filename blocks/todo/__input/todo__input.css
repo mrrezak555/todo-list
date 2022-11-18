@@ -1,0 +1,16 @@
+.todo__input{
+    background: #F5F8FD;
+    border-radius: 10px;
+    border: none;
+    width: 331px;
+    height: 36px;
+}
+
+.todo__input::placeholder{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #CED5DB;
+    padding-left: 18px;
+}
